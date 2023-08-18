@@ -1,0 +1,177 @@
+body{
+  background: rgb(22, 22, 22);
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+  width: min(70ch,100% 4rem);
+  margin-inline: auto;
+}
+.fistSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover ;
+  background-image: linear-gradient(rgba(0,0,0,0.2),#000),url('../images/mainpic.jpg');
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.name{
+  color: white;
+  font-size: 100;
+  animation: fadein 2s;
+}
+
+.grid1{
+  object-fit: fill;
+  color: white;
+}
+.Text{
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+h1,
+p{
+  color: white;
+}
+.mainText{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  color: aliceblue;
+  font-size: 30px;
+  margin: 10px;
+}
+.section1{
+margin-left: 10%;
+margin-right: 10%;
+ min-width: 50%;
+ min-height: 50%;
+ background: rgba(255, 255, 255, 0.171);
+
+}
+
+.grid{
+  min-height: 100vh;
+}
+
+.food-grid {
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px;
+  padding: 20px;
+}
+
+.food-item {
+  display: flex; 
+  border: 1px solid #ddd;
+  gap: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.food-details {
+  flex: 1; 
+  text-align: left;
+}
+
+.food-details p {
+  margin: 0;
+}
+
+.food-item img {
+  max-width: 50%; 
+  height: auto;
+}
+
+.search{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newRecipes{
+  color: whitesmoke;
+}
+.title,
+.newRecipes{
+  font-size: large;
+  font-weight: bold;
+  margin: 10px;
+  ;
+}
+.disctiption,
+.recipe,
+.step{
+  opacity: 0.8;
+  font-size: small;
+  margin: 10px
+}
+.products-grid {
+  display: grid;
+
+  grid-template-columns: repeat(8, 1fr);
+}
+
+@media (max-width: 2000px) {
+  .products-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (max-width: 1600px) {
+  .products-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 1300px) {
+  .products-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.input{
+  padding: 10px;
+  padding-right: 100px;
+  border-radius: 20px;
+  border: none;
+}
+.search-icon{
+  position: relative;
+  top: 5px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
