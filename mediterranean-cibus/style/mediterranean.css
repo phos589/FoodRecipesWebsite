@@ -1,6 +1,6 @@
 body{
   background: rgb(22, 22, 22);
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .main{
   width: min(70ch,100% 4rem);
@@ -137,7 +137,8 @@ h1{
 }
 .products-grid {
   display: grid;
-
+  margin-left: 15vh;
+  margin-right: 15vh;
   grid-template-columns: repeat(8, 1fr);
 }
 
@@ -187,4 +188,18 @@ h1{
   body{
     min-width: 1400px;
   }
+}
+
+.grid-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-box{
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.grid-box p {
+  margin-top: 10px;
 }
