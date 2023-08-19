@@ -6,6 +6,10 @@ body{
   width: min(70ch,100% 4rem);
   margin-inline: auto;
 }
+h1,
+p{
+  color: white;
+}
 .fistSection{
   display: flex;
   align-items: center;
@@ -27,19 +31,19 @@ body{
   font-size: 100;
   animation: fadein 2s;
 }
-
-.grid1{
+h1{
+  margin: 10px;
+}
+.grid-text{
   object-fit: fill;
   color: white;
+  margin: 10px;
 }
 .Text{
   display: flex;
   justify-content: center;
   padding: 100px;
-}
-h1,
-p{
-  color: white;
+
 }
 .mainText{
   display: flex;
@@ -49,24 +53,25 @@ p{
   font-size: 30px;
   margin: 10px;
 }
-.section1{
-margin-left: 10%;
-margin-right: 10%;
- min-width: 50%;
- min-height: 50%;
- background: rgba(255, 255, 255, 0.171);
+.info-text{
+  margin-left: 10%;
+  margin-right: 10%;
+  min-width: 50%;
+  min-height: 50%;
+  background: rgba(146, 145, 80, 0.171);
 
 }
 
 .grid{
   min-height: 100vh;
 }
-
 .food-grid {
   display: flex; 
   flex-direction: column; 
-  gap: 20px;
+  gap: 100px;
   padding: 20px;
+  min-width: 400px;
+
 }
 
 .food-item {
@@ -75,6 +80,8 @@ margin-right: 10%;
   gap: 20px;
   padding: 10px;
   text-align: center;
+  margin-left: 15vh;
+  margin-right: 15vh;
 }
 
 .food-details {
@@ -96,11 +103,11 @@ margin-right: 10%;
   flex-direction: column;
   align-items: center;
 }
-.newRecipes{
+.search-text{
   color: whitesmoke;
 }
 .title,
-.newRecipes{
+.search-text{
   font-size: large;
   font-weight: bold;
   margin: 10px;
@@ -112,6 +119,21 @@ margin-right: 10%;
   opacity: 0.8;
   font-size: small;
   margin: 10px
+}
+.input{
+  padding: 10px;
+  padding-right: 100px;
+  border-radius: 20px;
+  border: none;
+}
+.search-icon{
+  position: relative;
+  top: 5px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
 }
 .products-grid {
   display: grid;
@@ -160,18 +182,9 @@ margin-right: 10%;
     grid-template-columns: 1fr;
   }
 }
-.input{
-  padding: 10px;
-  padding-right: 100px;
-  border-radius: 20px;
-  border: none;
-}
-.search-icon{
-  position: relative;
-  top: 5px;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
+
+@media (max-width: 1400px) {
+  body{
+    min-width: 1400px;
+  }
 }
