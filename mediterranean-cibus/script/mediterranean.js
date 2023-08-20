@@ -1,5 +1,5 @@
 import { popularRecipe } from '../data/PRdata.js';
-
+import { data } from '../data/dataSearch.js';
 //make the HTML
 let populerReceipeHTML = '';
 
@@ -37,9 +37,39 @@ document.querySelector('.grid-js').innerHTML = populerReceipeHTML;
     origin: 'left',
     distance: '20px',
     delay: 200,       
-    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)', 
-    reset: true,      
+    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',    
+});
+// search
+
+const searchInput = document.querySelector(".input");
+const resultsList = document.querySelector(".products-grid");
+
+let searchHTML = '';
+
+searchInput.addEventListener("input", function() {
+  const searchTerm = searchInput.value.toLowerCase();
+  const filteredResults = data.filter(item =>
+    item.keywords.some(keyword => keyword.toLowerCase().includes(searchTerm))
+  );
+  displayResults(filteredResults);
 });
 
+function displayResults(results) {
+  searchHTML = '';
 
-
+  if (results.length === 0) {
+    resultsList.innerHTML = "<p>No results found.</p>";
+  } else {
+    results.forEach(result => {
+      searchHTML += `
+      <a href="recipe.html?name=${result.name}">
+      <div class="grid-box">
+        <img src=${result.images}>
+        <p>${result.name}</p>
+      </div>
+    </a>
+      `
+    });
+  }
+  resultsList.innerHTML = searchHTML;
+}
