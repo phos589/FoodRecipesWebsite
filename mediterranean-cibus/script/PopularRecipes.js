@@ -1,4 +1,4 @@
-import { data } from "../data/dataSearch.js";
+import { popularRecipe } from "../data/PRdata.js";
 
 const sr = ScrollReveal();
 
@@ -20,22 +20,16 @@ sr.reveal('li', {
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const recipeName = urlParams.get('name');
+const productName = urlParams.get('name');
 
-
-let selectedRecipe = data.find(item => item.name === recipeName);
-
-if (selectedRecipe) {
-  console.log(selectedRecipe);
-}
-
+let selectedRecipe = popularRecipe.find(item => item.name === productName);
 
 
 selectedRecipe = `
   <h1>${selectedRecipe.name}</h1>
   <p class="description">${selectedRecipe.description}</p>
   <div class="image-background">
-    <img src="${selectedRecipe.images}">
+    <img src="${selectedRecipe.image}">
   </div>
   <h1>Description</h1>
   <p class="description">${selectedRecipe.descriptionTwo}</p>
@@ -62,3 +56,5 @@ selectedRecipe = `
 
   document.querySelector('.container').innerHTML = selectedRecipe;
   
+
+

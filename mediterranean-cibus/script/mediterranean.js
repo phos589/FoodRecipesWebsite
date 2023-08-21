@@ -5,25 +5,17 @@ let populerReceipeHTML = '';
 
 popularRecipe.forEach((product) => {
   populerReceipeHTML += `
+  <a href="PopularRecipes.html?name=${product.name}" style="">
       <div class="food-grid">
         <div class="food-item">
           <img src=${product.image} class="image-Item">
             <div>
               <p>${product.name}</p>
               <p>${product.description}</p>
-
-            <p>
-              How to make a ${product.name}
-            </p>
-              <p>${product.Steps[0].stepOne}</p>
-              <p>${product.Steps[0].stepTwo}</p>
-              <p>${product.Steps[0].stepThree}</p>
-              <p>${product.Steps[0].stepFour}</p>
-              <p>${product.Steps[0].stepFive}</p>
-              <p>${product.Steps[0].stepSix}</p>
-              <p>${product.Steps[0].stepSeven}</p>
+              <p>${product.descriptionTwo}</p>
           </div>
         </div>
+  </a>      
   `
 })
 
@@ -62,7 +54,7 @@ function displayResults(results) {
   } else {
     results.forEach(result => {
       searchHTML += `
-      <a href="recipe.html?name=${result.name}">
+      <a href="recipe.html?name=${result.name}" style="">
       <div class="grid-box">
         <img src=${result.images}>
         <p>${result.name}</p>

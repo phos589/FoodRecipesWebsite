@@ -1,23 +1,38 @@
-body{
-  background: rgb(22, 22, 22);
+body {
+  background: #161616;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
-.main{
-  width: min(70ch,100% 4rem);
+
+.container {
+  width: min(70ch, 100%, 4rem);
   margin: 0 auto;
 }
+
 h1,
-p{
+p,
+.title,
+.search-text,
+.disctiption,
+.recipe,
+.step,
+.food-details p {
   color: white;
+  margin: 10px;
 }
-.fistSection{
+
+.fistSection {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-size: cover ;
-  background-image: linear-gradient(rgba(0,0,0,0.2),#000),url('../images/mainpic.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.2), #000),
+    url('../images/mainpic.jpg');
+  background-size: cover;
 }
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -26,21 +41,16 @@ p{
     opacity: 1;
   }
 }
-.name{
+
+.name {
   color: white;
-  font-size: 100;
+  font-size: 100px;
   animation: fadein 4s;
   min-width: 60rem;
 }
-h1{
-  margin: 10px;
-}
-.grid-text{
-  object-fit: fill;
-  color: white;
-  margin: 10px;
-}
-.Text, .mainText {
+
+.grid-text,
+.mainText {
   display: flex;
   justify-content: center;
   margin: 10px;
@@ -51,21 +61,25 @@ h1{
   color: aliceblue;
   font-size: 30px;
 }
-.info-text {
-  margin: 10% 10%;
-  min-width: 50%;
-  min-height: 50%;
-  background: rgba(85, 85, 71, 0.171);
-  min-width: 60rem;
-  margin-left: 30vh;
-  margin-right: 30vh;
+.Text{
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 1000px;
 }
 
-.grid{
+.info-text {
+  margin: 10% auto;
+  min-width: 60rem;
+  background: rgba(85, 85, 71, 0.171);
+}
+
+.grid {
   min-height: 100vh;
 }
 
-.image-Item{
+.image-Item {
   max-width: 100%;
   display: block;
 }
@@ -73,30 +87,27 @@ h1{
 .food-grid {
   display: flex;
   flex-direction: column;
-  gap: 20px; 
+  gap: 20px;
   padding: 20px;
-  min-width: 1400px;
-  min-height: 500px; 
+  min-width: 1000px;
 }
 
 .food-item {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   border: 1px solid #ddd;
   padding: 10px;
   text-align: center;
   min-height: 24rem;
-  margin: 10px 0; 
-  margin-left: 20vh;
-  margin-right: 20vh;
-
+  margin: 10px 0;
+  margin: 10px auto;
+  max-width: 1000px;
 }
 
 .food-item img {
-  min-width: 600px; 
-  min-height: 400px; 
-  object-fit: cover; 
-
+  max-width: 40%;
+  max-height: 30%;
+  object-fit: cover;
 }
 
 .food-details {
@@ -104,44 +115,38 @@ h1{
   text-align: left;
 }
 
-.food-details p {
-  margin: 0;
-  min-width: 700px; 
-  min-height: 500px; 
-}
-
-.search{
+.search {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 10vh;
 }
-.search-text, .title {
+
+.search-text,
+.title {
   font-size: large;
   font-weight: bold;
-  margin: 10px;
   color: whitesmoke;
 }
+
+.search-text,
 .title,
-.search-text{
-  font-size: large;
-  font-weight: bold;
-  margin: 10px;
-}
 .disctiption,
 .recipe,
-.step{
-  opacity: 0.8;
+.step {
   font-size: small;
-  margin: 10px
+  margin: 10px;
+  opacity: 0.8;
 }
-.input{
+
+.input {
   padding: 10px;
   padding-right: 100px;
   border-radius: 20px;
   border: none;
 }
-.search-icon{
+
+.search-icon {
   position: relative;
   top: 5px;
   border: none;
@@ -150,42 +155,25 @@ h1{
   width: 30px;
   height: 30px;
 }
+
 .products-grid {
   display: grid;
-  margin-left: 15vh;
-  margin-right: 15vh;
-  grid-template-columns: repeat(8, 1fr);
+  margin: 0 auto;
   margin-bottom: 10vh;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-@media (max-width: 2000px) {
-  .products-grid {
-    grid-template-columns: repeat(7, 1fr);
-  }
+.grid-box img {
+  max-width: 50%;
+  height: auto;
 }
 
-@media (max-width: 1600px) {
-  .products-grid {
-    grid-template-columns: repeat(6, 1fr);
-  }
-}
-
-@media (max-width: 1300px) {
-  .products-grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
-@media (max-width: 1000px) {
-  .products-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (max-width: 800px) {
-  .products-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.grid-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 500px;
 }
 
 @media (max-width: 575px) {
@@ -198,18 +186,4 @@ h1{
   .products-grid {
     grid-template-columns: 1fr;
   }
-}
-.grid-box img {
-  max-width: 100%;
-  height: auto;
-}
-
-.grid-box{
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
-  margin: 20px;
-}
-.grid-box p {
-  margin-top: 10px;
 }
