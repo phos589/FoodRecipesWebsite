@@ -1,5 +1,4 @@
-import { data } from "../data/dataSearch.js";
-
+import { data } from "../data/data.js";
 const sr = ScrollReveal();
 
 sr.reveal('img', {

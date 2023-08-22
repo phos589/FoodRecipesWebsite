@@ -1,14 +1,27 @@
-import { popularRecipe } from '../data/PRdata.js';
-import { data } from '../data/dataSearch.js';
-//make the HTML
+import { data } from '../data/data.js';
+
+function getRandomElements(arr, numElements) {
+  const shuffled = arr.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, numElements);
+}
+
+const numElementsToSelect = 3;
+
+const randomElements = getRandomElements(data, numElementsToSelect);
+console.log(randomElements);
+
 let populerReceipeHTML = '';
 
-popularRecipe.forEach((product) => {
+randomElements.forEach((product) => {
   populerReceipeHTML += `
-  <a href="PopularRecipes.html?name=${product.name}" style="">
+  <a href="recipe.html?name=${product.name}" class="no-style-link">
       <div class="food-grid">
         <div class="food-item">
-          <img src=${product.image} class="image-Item">
+          <img src=${product.images} class="image-Item">
             <div>
               <p>${product.name}</p>
               <p>${product.description}</p>
@@ -20,7 +33,6 @@ popularRecipe.forEach((product) => {
 
 document.querySelector('.grid-js').innerHTML = populerReceipeHTML;
 
-// animate elements on scroll
   const sr = ScrollReveal();
 
   sr.reveal('.food-grid', {
@@ -30,7 +42,6 @@ document.querySelector('.grid-js').innerHTML = populerReceipeHTML;
     delay: 200,       
     easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',    
 });
-// search
 
 const searchInput = document.querySelector(".input");
 const resultsList = document.querySelector(".products-grid");
@@ -53,7 +64,7 @@ function displayResults(results) {
   } else {
     results.forEach(result => {
       searchHTML += `
-      <a href="recipe.html?name=${result.name}" style="">
+      <a href="recipe.html?name=${result.name}" class="no-style-link">
       <div class="grid-box">
         <img src=${result.images}>
         <p>${result.name}</p>
