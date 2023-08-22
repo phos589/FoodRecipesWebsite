@@ -25,12 +25,6 @@ const recipeName = urlParams.get('name');
 
 let selectedRecipe = data.find(item => item.name === recipeName);
 
-if (selectedRecipe) {
-  console.log(selectedRecipe);
-}
-
-
-
 selectedRecipe = `
   <h1>${selectedRecipe.name}</h1>
   <p class="description">${selectedRecipe.description}</p>

@@ -12,7 +12,6 @@ popularRecipe.forEach((product) => {
             <div>
               <p>${product.name}</p>
               <p>${product.description}</p>
-              <p>${product.descriptionTwo}</p>
           </div>
         </div>
   </a>      
