@@ -157,16 +157,15 @@ p,
 
 .products-grid {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: auto; 
-  margin: 0 auto; 
+  gap: 20px;
+  padding: 20px;
+  min-width: 500px;
 }
 
 .grid-box {
-  border: 1px solid #ddd;
   padding: 10px;
   text-align: center;
   max-width: 500px;
@@ -175,8 +174,9 @@ p,
 }
 
 .grid-box img {
-  max-width: 100%;
-  height: auto;
+  max-width: 40%;
+  max-height: 30%;
+  object-fit: cover;
 }
 
 @media (max-width: 575px) {

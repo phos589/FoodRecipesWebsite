@@ -493,7 +493,8 @@ keywords: [
   'italy ',
   'Spain'
 ]
-},{
+},
+{
   images: '../images/dataSearch/SWEET-POTATO-BREAKFAST-HASH.jpg',
   name: 'Sweet Potato Breakfast Hash',
   description: "Indulge in a delightful morning experience with our Sweet Potato Breakfast Hash. This hearty dish combines the natural sweetness of roasted sweet potatoes with savory elements like crispy bacon, sautéed onions, and vibrant bell peppers. Each bite offers a symphony of flavors and textures, from the tender interior of the sweet potatoes to the satisfying crunch of perfectly cooked bacon. This hash is a nourishing and energy-boosting way to start your day, providing a harmonious balance between wholesome ingredients and delectable taste.",
@@ -584,5 +585,165 @@ keywords: [
     'Spain'
   ]
   
+},
+{
+  images: '../images/dataSearch/Lahmacun.jpg',
+  name: 'Lahmacun',
+  description: "Lahmacun, often referred to as 'Turkish Pizza,' is a traditional Middle Eastern and Mediterranean dish that consists of a thin, round, unleavened dough topped with a flavorful mixture of ground meat, vegetables, and spices. It's a popular street food and can be enjoyed as a quick snack or a light meal.",
+  descriptionTwo:"Lahmacun is a delicious flatbread dish known for its harmonious blend of textures and flavors. The thin dough is stretched out to create a delicate base that becomes crisp when baked, while the topping, made from finely ground lamb or beef, onions, tomatoes, and various spices, infuses each bite with a burst of savory and aromatic notes. Fresh parsley, lemon juice, and sometimes sumac are often sprinkled on top to add a refreshing zing.  ",
+  descriptionThree:"Lahmacun, a cherished dish in Turkish and Middle Eastern cuisine, is a delightful fusion of tastes and cultures. The dough, rolled out thinly like a canvas, transforms into a platform for a rich mixture of ground meat, often lamb, mixed with finely chopped vegetables like onions and tomatoes. The medley of spices like cumin, paprika, and Aleppo pepper creates a symphony of warmth and complexity, transporting your senses to the bustling streets and vibrant markets where it's commonly enjoyed.  ",
+  Ingredients: [{
+    one:"250g ground lamb or beef    ",
+    two:"1 medium onion, finely chopped    ",
+    three:"2 medium tomatoes, finely chopped    ",
+    four:"2 cloves garlic, minced    ",
+    five:"2 teaspoons ground cumin    ",
+    six:"1 teaspoon paprika    ",
+    seven:"1/2 teaspoon red pepper flakes or Aleppo pepper    ",      
+  }],
+  Steps: [{
+    stepOne:"In a bowl, combine warm water, sugar, and yeast. Let it sit for about 5-10 minutes until frothy.  In a large mixing bowl, combine flour and salt. Pour in the yeast mixture and knead until you have a smooth dough. Cover the dough with a damp cloth and let it rest for about 1-2 hours, allowing it to rise.",
+    stepTwo:"In a bowl, mix the ground meat, chopped onion, chopped tomatoes, minced garlic, ground cumin, paprika, red pepper flakes, salt, and pepper. Mix well to combine all the flavors.    ",
+    stepThree:"Preheat your oven to a high temperature, around 450°F (230°C).  Divide the dough into smaller portions and roll each portion into a thin circle.",
+    stepFour:"Drizzle with a bit of olive oil and place in the preheated oven. Bake for about 8-10 minutes or until the edges of the dough are golden and crisp, and the meat is cooked.",
+    stepFive:"Once baked, sprinkle chopped parsley over the Lahmacun. Serve with lemon wedges on the side for a burst of freshness.",
+    stepSix:"",
+  }],
+  keywords: [
+    'Lahmacun ',
+    'Middle East ',
+    'Syria ',
+    'Turkey',
+    'Lebanon'
+  ]
+  
+}, 
+{ 
+images: '../images/dataSearch/Risotto.jpg',
+name: 'Risotto',
+description: "Risotto, a beloved Italian culinary masterpiece, is a creamy and luxurious dish that epitomizes comfort and elegance. Crafted from Arborio rice, a short-grain rice known for its high starch content, risotto is meticulously cooked to achieve a creamy consistency. This velvety canvas is then adorned with an array of ingredients, from earthy mushrooms to succulent seafood or vibrant vegetables, resulting in a harmonious symphony of flavors that captivate the senses.",
+descriptionTwo:"Risotto, a staple of Italian cuisine, represents the marriage of simplicity and sophistication. Characterized by its distinct creamy texture, each grain of Arborio rice absorbs the flavors of the broth or wine it's cooked in, resulting in a rich, comforting dish. As the rice is slowly stirred and cooked, it releases its starches, creating a luscious sauce that envelops every ingredient added, whether it's saffron for a golden hue or Parmesan for an indulgent finish.",
+descriptionThree:"Risotto, an artful creation born in the heart of Italy, is a celebration of culinary alchemy. The magic lies in the meticulous process: Arborio rice is coaxed into creamy perfection through patient stirring and the gradual addition of liquid, typically broth or wine. This canvas welcomes an array of companions, from earthy to delicate, as the rice's embrace transforms simple ingredients into complex, harmonious flavors. A symphony of texture and taste, risotto embodies the essence of comfort and sophistication.",
+Ingredients: [{
+  one:"1 cup Arborio rice",
+  two:"1/2 cup dry white wine    ",
+  three:" 4 cups vegetable or chicken broth  ",
+  four:"1 cup mushrooms (such as cremini or shiitake), sliced  ",
+  five:"1 small onion, finely chopped  ",
+  six:"2 cloves garlic, minced  ",
+  seven:"/2 cup grated Parmesan cheese  ",      
+}],
+Steps: [{
+  stepOne:"Heat the vegetable or chicken broth in a saucepan and keep it warm over low heat.  ",
+  stepTwo:"In the same skillet, add the remaining butter and olive oil. Add the chopped onion and cook until it becomes translucent. Add the minced garlic and Arborio rice. Cook for a couple of minutes until the rice is lightly toasted.",
+  stepThree:"Pour in the white wine and stir until it's mostly absorbed by the rice. Begin adding the warm broth, one ladleful at a time, stirring constantly and allowing each ladleful to be absorbed before adding more. Continue this process until the rice is creamy and cooked al dente (about 18-20 minutes).",
+  stepFour:"Stir in the sautéed mushrooms and grated Parmesan cheese. Season with salt and pepper to taste.",
+  stepFive:"Garnish with chopped fresh parsley. Serve the risotto immediately while it's still creamy and flavorful",
+  stepSix:"",
+}],
+keywords: [
+  'Risotto ',
+  'Italy ',
+  'Lombardy ',
+  'Piedmont',
+  'Veneto '
+]
+
+}, 
+{ 
+images: '../images/dataSearch/Pastizzi.jpg',
+name: 'Pastizzi',
+description: "Pastizzi, a delectable Maltese pastry, is a savory delight that encapsulates the essence of Mediterranean flavors. These flaky, golden parcels are crafted from layers of thin, buttery pastry dough that encase a filling of either ricotta cheese or spiced minced meat. With a satisfying contrast between the crisp exterior and the rich, flavorful interior, pastizzi is a beloved snack that reflects the warmth of Maltese hospitality.",
+descriptionTwo:"Pastizzi, a culinary treasure of Malta, embodies the heart and soul of the Mediterranean. These bite-sized pastries are a harmonious marriage of textures and tastes—layers of paper-thin dough give way to a velvety center of either ricotta cheese, laced with herbs, or a savory blend of ground meat infused with aromatic spices. As you savor each morsel, you're transported to the sun-soaked shores of Malta, where pastizzi are enjoyed in the company of friends and the backdrop of the azure sea.",
+descriptionThree:"Pastizzi, a Maltese culinary legacy, is a testament to the artistry of pastry making. A delicate dance between flakiness and tenderness, these pastries are handcrafted with precision and care. The exterior shatters with a satisfying crunch, revealing the heartwarming embrace of either ricotta cheese kissed by Mediterranean herbs or a spiced meat medley that tells a story of tradition and flavor. Pastizzi not only tantalize the taste buds but also offer a glimpse into the cultural tapestry of Malta.",
+Ingredients: [{
+  one:"2 cups all-purpose flour",
+  two:"1/2 teaspoon salt ",
+  three:" 1/2 cup unsalted butter, chilled and cubed  ",
+  four:"Ice water  ",
+  five:"Ricotta filling: 1 cup ricotta cheese, mixed with chopped parsley, salt, and pepper  ",
+  six:"Meat filling: 250g ground meat (beef, pork, or a mixture), sautéed with onions, garlic, and spices (like cumin, paprika, and thyme)  ",
+  seven:"",      
+}],
+Steps: [{
+  stepOne:"In a bowl, mix the flour and salt. Add the cubed butter and use your fingers or a pastry cutter to work it into the flour until the mixture resembles coarse crumbs. Gradually add ice water, a tablespoon at a time, and mix until the dough comes together. Form the dough into a ball, wrap it in plastic wrap, and refrigerate for about 30 minutes.",
+  stepTwo:"On a lightly floured surface, roll out the chilled dough into a thin sheet. Fold the dough in half, then in half again. Roll it out once more, and fold again. Repeat this process a couple of times to create layers.  ",
+  stepThree:"Roll out the dough once more to about 1/8 inch thickness. Cut the dough into squares or circles, about 4-5 inches in size. Place a spoonful of your chosen filling (ricotta or meat) in the center of each square or circle.",
+  stepFour:"Fold the dough over the filling to form a triangle or half-moon shape. Press the edges to seal. Place the filled pastizzi on a baking sheet lined with parchment paper. Brush the tops with a beaten egg for a golden finish. Bake in a preheated oven at 375°F (190°C) for about 20-25 minutes, or until the pastizzi are golden and crispy.",
+  stepFive:"Let the pastizzi cool slightly before serving. Enjoy your pastizzi warm as a delicious snack or appetizer.",
+  stepSix:"",
+}],
+keywords: [
+  'Pastizzi ',
+  'Italy ',
+  'Malta ',
+  'Piedmont',
+  'Veneto '
+]
+
+}, 
+{ 
+images: '../images/dataSearch/Fenek.jpg',
+name:'Fenek',
+description: "Fenek, a cherished dish from the island of Malta, embodies the rustic flavors of the Mediterranean countryside. This traditional delicacy features rabbit meat, which is tenderized through marination and slow-cooking, resulting in a succulent and aromatic experience. Seasoned with a blend of local herbs and spices, fenek captures the essence of Maltese culture and history, often enjoyed as a centerpiece at festive gatherings.",
+descriptionTwo:"Fenek, a symbol of Maltese gastronomy, is a dish that harkens back to the island's heritage. Rabbit, once a culinary necessity on this rocky terrain, has transcended its humble origins to become a culinary masterpiece. Marinated in a blend of garlic, wine, and herbs, the rabbit is stewed until it's fork-tender, absorbing the flavors of the Mediterranean. Fenek is not just a meal—it's a sensory journey through Maltese tradition and the rugged landscapes that have shaped its culinary identity.",
+descriptionThree:"Fenek, a taste of Maltese history, is a celebration of sustainability and resourcefulness. This beloved dish pays homage to the island's past, where rabbit hunting was an essential source of sustenance. The rabbit, marinated with care and simmered to perfection, offers a balance of tenderness and depth of flavor. Infused with aromatic spices and herbs, fenek is a culinary treasure that echoes the resilience and connection to nature that define Malta's cultural narrative.",
+Ingredients: [{
+  one:"1 whole rabbit, cleaned and cut into serving pieces",
+  two:"1 onion, finely chopped ",
+  three:" 3 cloves garlic, minced",
+  four:"1 cup red wine ",
+  five:"1/4 cup olive oil",
+  six:"1 teaspoon dried thyme  ",
+  seven:"1 teaspoon dried rosemary",      
+}],
+Steps: [{
+  stepOne:"In a bowl, mix the red wine, olive oil, chopped onion, minced garlic, dried thyme, dried rosemary, bay leaf, salt, and pepper. Place the rabbit pieces in the marinade, ensuring they are well coated. Cover and refrigerate for at least 4 hours or overnight, allowing the flavors to infuse.",
+  stepTwo:"Remove the rabbit from the marinade and pat dry with paper towels. Reserve the marinade. Coat the rabbit pieces with a light dusting of all-purpose flour. In a large skillet or pot, heat some olive oil over medium-high heat. Add the rabbit pieces and brown them on all sides.   ",
+  stepThree:"Pour the reserved marinade into the skillet, scraping up any browned bits from the bottom. Reduce the heat to low, cover the skillet, and let the rabbit simmer gently for about 1.5 to 2 hours, or until the meat is tender and easily comes off the bone.",
+  stepFour:"Once the rabbit is cooked to perfection, transfer the pieces to a serving dish. Garnish with chopped fresh parsley. Serve fenek with crusty bread, roasted potatoes, or a side of seasonal vegetables.",
+  stepFive:"",
+  stepSix:"",
+}],
+keywords: [
+  'Fenek  ',
+  'Italy ',
+  'Malta ',
+  'Piedmont',
+  'Veneto '
+]
+
+}, 
+{ 
+images: '../images/dataSearch/Caprese-Salad.jpg',
+name: 'Caprese Salad ',
+description: "Caprese Salad, a quintessential Italian masterpiece, is a vibrant and elegant symphony of flavors and colors. Composed of just a few elemental ingredients, including ripe tomatoes, creamy mozzarella, fragrant basil leaves, and a drizzle of extra virgin olive oil, this salad captures the essence of simplicity and sophistication. With each bite, the interplay of sweet tomatoes, delicate cheese, and aromatic basil transports you to the sun-drenched landscapes of Italy.",
+descriptionTwo:"Caprese Salad, a tribute to the Italian culinary philosophy of 'less is more,'' stands as a testament to the art of balance. Radiant red tomatoes and milky mozzarella slices are carefully arranged like brushstrokes on a canvas, with fresh basil leaves lending their aromatic touch. A gentle shower of olive oil serves as the finishing stroke, enhancing the natural beauty of this edible masterpiece. Caprese Salad isn't just a dish—it's an ode to the beauty of nature's bounty.",
+descriptionThree:"Caprese Salad, a celebration of Mediterranean vitality, embodies the essence of la dolce vita. A mosaic of vibrant reds, creamy whites, and verdant greens, this salad is a visual and gustatory delight. The tomato-mozzarella duo harmonizes like a culinary duet, while basil leaves lend a refreshing herbal note. The drizzle of golden olive oil not only elevates the flavors but also symbolizes the liquid gold that has graced Italian tables for centuries.",
+Ingredients: [{
+  one:"Ripe tomatoes (preferably a mix of heirloom and cherry tomatoes)  ",
+  two:"Fresh mozzarella cheese (buffalo mozzarella or regular)  ",
+  three:" Fresh basil leaves  ",
+  four:"Extra virgin olive oil  ",
+  five:"Balsamic vinegar (optional)  ",
+  six:"Salt and freshly ground black pepper  ",
+  seven:"Balsamic glaze (for drizzling, optional)  ",      
+}],
+Steps: [{
+  stepOne:"Wash and dry the tomatoes. Slice them into 1/4-inch thick rounds. Slice the mozzarella cheese into similar-sized rounds.",
+  stepTwo:"On a serving platter or individual plates, arrange alternating slices of tomato and mozzarella, slightly overlapping each other.  ",
+  stepThree:"Lightly season the salad with a pinch of salt and a sprinkle of freshly ground black pepper. Drizzle extra virgin olive oil over the salad. For added richness, you can also drizzle balsamic vinegar or balsamic glaze.   ",
+  stepFour:"Caprese Salad is best enjoyed immediately after assembling to preserve the freshness of the ingredients and the flavors.  ",
+  stepFive:"",
+  stepSix:"",
+}],
+keywords: [
+  'Caprese Salad  ',
+  'Italy ',
+  'Malta ',
+  'Piedmont',
+  'Veneto '
+]
+
 }
 ]
