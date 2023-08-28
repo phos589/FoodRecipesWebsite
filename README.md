@@ -10,4 +10,5 @@ Our mission is to celebrate this culinary heritage by sharing meticulously craft
 * creates the grid from data file
 * search filter
 * 
-![2](https://github.com/phos589/FoodRecipesWebsite/assets/140889919/12411895-6f0c-449e-ae5d-b3056aea960b)
+
+![1](https://github.com/phos589/FoodRecipesWebsite/assets/140889919/80bd3ee6-3be1-4173-be6e-e8730f8c5b4b)
